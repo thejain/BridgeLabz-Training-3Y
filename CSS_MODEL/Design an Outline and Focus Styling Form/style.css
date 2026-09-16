@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #eef1f5;
+  color: #222;
+}
+
+header {
+  text-align: center;
+  background-color: #37474f;
+  color: #fff;
+  padding: 25px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.demo-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: inherit;
+  outline: none;
+}
+
+textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.outline-solid:focus {
+  outline: 3px solid #1976d2;
+  outline-offset: 2px;
+}
+
+.outline-dashed:focus {
+  outline: 3px dashed #388e3c;
+  outline-offset: 4px;
+}
+
+.outline-dotted:focus {
+  outline: 3px dotted #e65100;
+  outline-offset: 6px;
+}
+
+.outline-double:focus {
+  outline: 5px double #6a1b9a;
+  outline-offset: 3px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1976d2;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 3px solid #0d47a1;
+  outline-offset: 2px;
+}
