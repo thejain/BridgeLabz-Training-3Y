@@ -93,3 +93,12 @@ console.log("end");
 // .catch((err)=>{              //reject
 //     console.log(err)
 // })
+
+
+
+aysnc function getData(){
+    
+}
+
+
+
